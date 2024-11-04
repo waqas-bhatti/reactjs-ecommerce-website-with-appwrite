@@ -1,0 +1,40 @@
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .rating {
+  margin-top: 10px;
+}
+
+.card .price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #f7f7f7;
+}
+
+.card button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
